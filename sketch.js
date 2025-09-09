@@ -218,7 +218,7 @@ function drawHourDisplay(hourVal, alpha) {
 
 function drawMinuteDisplay(minuteVal, alpha) {
   // decorative snake behind minute
-  drawSnake((width - 60) / 2, 170, alpha);
+  drawSnake((width - 60) / 2, 150, alpha);
   
   // large minute numbers
   textFont('Playfair Display');
