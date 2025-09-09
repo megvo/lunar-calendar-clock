@@ -9,9 +9,6 @@
 // ============================================
 // GLOBAL VARIABLES
 // ============================================
-let customFont;
-let fontLoaded = false;
-
 // animation variables
 let prevMinute = -1;
 let pageFlipping = false;
@@ -26,10 +23,6 @@ let weekdays = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday"
 // ============================================
 // SETUP FUNCTIONS
 // ============================================
-function preload() {
-  fontLoaded = true;
-}
-
 function setup() {
   createCanvas(400, 600);
   textAlign(CENTER, CENTER);
