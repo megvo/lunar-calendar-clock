@@ -226,7 +226,7 @@ function drawMinuteDisplay(minuteVal, alpha) {
   noStroke();
   fill(180, 20, 20, alpha);
   textSize(180);
-  text(nf(minuteVal, 2), (width - 60) / 2, 142);
+  text(nf(minuteVal, 2), (width - 60) / 2, 150);
 
   // resets font - only wanted it to be applied to the big minute number
   textFont('Arial');
